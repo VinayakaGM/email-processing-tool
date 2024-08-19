@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#emailList {
+    margin-top: 20px;
+}
+
+.email-item {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.email-item:hover {
+    transform: translateY(-3px);
+}
+
+.email-item h3 {
+    margin: 0 0 10px 0;
+    color: #007bff;
+}
+
+.email-from {
+    font-weight: bold;
+    color: #28a745;
+}
+
+.email-category {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.category-interested {
+    background-color: #28a745;
+    color: white;
+}
+
+.category-not-interested {
+    background-color: #dc3545;
+    color: white;
+}
+
+.category-more-information {
+    background-color: #ffc107;
+    color: black;
+}
+
+.email-content, .email-reply {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 3px;
+}
+
+.email-reply {
+    border-left: 3px solid #007bff;
+}
